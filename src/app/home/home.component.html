@@ -1,0 +1,18 @@
+<div id="all-products">
+    <div id="{{product.id}}" class="product" *ngFor="let product of list">
+        <div class="head_img">
+            <img/>
+            <h1>{{product.name}}</h1>
+        </div>
+        <div class="body_product">
+            <h3 >Spécification</h3>
+            <ul>
+                <li>color : {{product.color}}</li>
+                <li>weight :  {{product.weight}}g</li>
+                <li>storage : {{product.storage}}</li>
+                <li>price : {{product.price}}$</li>
+            </ul>
+        </div>
+        <button class="button" (click)="AddItem(product.id)">Add to Cart</button>
+    </div>
+</div>

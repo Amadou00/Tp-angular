@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: inherit;
+}
+h2{
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+#all-products{
+    display: flex;
+}
+#navbar{
+    display: flex;
+    background-color: blue;
+    padding-left: 30px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    width: 170px;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+}
+.button{
+    margin: 15px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+table, th, td {
+    border: 2px solid skyblue;
+    border-collapse: collapse;
+    padding: 5px;
+}
+    
